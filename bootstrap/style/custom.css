@@ -8,11 +8,16 @@ textarea {
     margin-bottom: 1rem;
 }
 
-.card {
+.card1,
+.card2,
+.card3 {
     width: 32%;
     float: left;
-    margin: 5px;
+    margin: 7px;
+    margin-top: 3px;
+    box-sizing: border-box;
 }
+
 
 .Titulo {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -23,3 +28,10 @@ textarea {
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
+.container {
+    display: block;
+}
+
+@media(max-width:425px) {}
